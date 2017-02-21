@@ -1,4 +1,4 @@
-# Pandas_practice
+# Pandas Examples
 This repository include some python pandas examples.
 Which help to understand the pandas.
 
