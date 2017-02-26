@@ -25,6 +25,14 @@ After the execution of the command it will look like :
 Here (0 to 8) are the column lables which is by defalut assigned by DataFrame, and 1 - 9 is our data.
 0 before 1 will denote the row no, or it is an index of the data.
 
+In above example we use list to create DataFrame. We can create the DataFrame using the dictionary aslo.
+```
+>>> pd.DataFrame({'A':1, 'B':2}, index=[0])
+   A  B
+0  1  2
+```
+If we are using dictionary then by default dict key value treated as a column name and it's value as a data.
+
 ##### Create DataFrame with labeled columns.
 Using *columns* paramter in DataFrame we can lebel the columns.
 ```
